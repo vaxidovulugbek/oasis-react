@@ -1,5 +1,4 @@
 import React from 'react'
-// import '../EventInfo/EventInfo.scss'
 import image_card from '../../assets/imgs/png/Снимок экрана 2023-06-28 в 01.01 1.png'
 import arrow from '../../assets/imgs/svg/arrow_back_ios_new.svg'
 function Event_Cards() {

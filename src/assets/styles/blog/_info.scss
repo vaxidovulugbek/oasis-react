@@ -12,7 +12,7 @@
   align-items: center;
   gap: 30px;
   border-radius: 50px;
-  border: 2px solid #8ad2f54d;
+  border: 2px solid $border-color;
   background: radial-gradient(116.62% 84.16% at 22.68% 20.40%, rgba(231, 231, 231, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.20);
   backdrop-filter: blur(23px);
   margin: 0 auto;
@@ -44,7 +44,7 @@
   }
 
   &__event-title {
-    color: #8AD2F5;
+    color: $main-color;
     text-align: center;
     font-family: 'Gilroy-Bold';
     font-size: 32px;
@@ -57,7 +57,7 @@
   }
 
   &__event-text {
-    color: #1f1f1fcc;
+    color: $event-text-color;
     text-align: center;
     font-family: 'Gilroy-Regular';
     font-size: 20px;
@@ -69,7 +69,7 @@
 
   &__event-date {
     margin-bottom: 20px;
-    color: #1f1f1fcc;
+    color: $event-text-color;
     text-align: center;
     font-family: 'Gilroy-SemiBold';
     font-size: 32px;
@@ -88,7 +88,7 @@
     padding: 11px 11px 11px 16px;
     min-width: 145px;
     min-height: 44px;
-    color: #fff;
+    color: $white;
     font-family: 'Gilroy-SemiBold';
     font-size: 18px;
     font-style: normal;
@@ -115,7 +115,7 @@
       padding: 11px 16px;
       min-width: 145px;
       min-height: 44px;
-      color: #fff;
+      color: $white;
       font-family: 'Gilroy-SemiBold';
       font-size: 18px;
       font-style: normal;
@@ -128,7 +128,7 @@
   }
 
   &__title {
-    color: #8AD2F5;
+    color: $main-color;
     text-align: center;
     font-family: 'Gilroy-Bold';
     font-size: 48px;
@@ -140,7 +140,7 @@
   }
 
   &__text{
-    color: #454545;
+    color: $text-color;
     text-align: center;
     font-family: "Gilroy-SemiBold";
     font-size: 20px;
@@ -221,7 +221,7 @@ ul {
     height: 304px;
     flex-shrink: 0;
     border-radius: 20px;
-    border: 2px solid #8ad2f54d;
+    border: 2px solid $border-color;
     background: radial-gradient(116.62% 84.16% at 22.68% 20.40%, rgba(231, 231, 231, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.20);
     backdrop-filter: blur(23px);
 
@@ -244,7 +244,7 @@ ul {
       font-style: normal;
       font-weight: 400;
       line-height: normal;
-      color: #8AD2F5;
+      color: $main-color;
       margin: 0;
     }
 
@@ -269,7 +269,7 @@ ul {
 }
 
 .aquapark-event-title {
-  color: #1f1f1fcc;
+  color: $event-text-color;
   font-family: 'Gilroy-Bold';
   font-size: 32px;
   font-style: normal;
@@ -280,7 +280,7 @@ ul {
 }
 
 .aquapark-event-text {
-  color: #1f1f1fcc;
+  color: $event-text-color;
   font-family: 'Gilroy-Regular';
   font-size: 16px;
   font-style: normal;
@@ -305,7 +305,7 @@ ul {
 }
 
 .aquapark-event-btn {
-  color: #fff;
+  color: $white;
   font-family: 'Gilroy-Medium';
   font-size: 16px;
   font-style: normal;
@@ -376,7 +376,7 @@ ul {
   }
 
   &__title {
-    color: #1f1f1fcc;
+    color: $event-text-color;
     font-family: 'Gilroy-Bold';
     font-size: 32px;
     font-style: normal;
@@ -386,7 +386,7 @@ ul {
   }
 
   &__subtext {
-    color: #8AD2F5;
+    color: $main-color;
     font-family: 'Gilroy-Medium';
     font-size: 20px;
     font-style: normal;
@@ -397,7 +397,7 @@ ul {
   }
 
   &__text {
-    color: #1f1f1fcc;
+    color: $event-text-color;
     font-family:'Gilroy-Regular';
     font-size: 16px;
     font-style: normal;
@@ -572,7 +572,7 @@ ul {
   }
 
   .aquapark-event-title {
-    color: #1f1f1fcc;
+    color: $event-text-color;
     font-family: 'Gilroy-Bold';
     font-size: 20px;
     font-style: normal;
@@ -614,6 +614,7 @@ ul {
     padding: 20px !important;
   }
 
+  // START MOBILE MODAL STYLE
 
   .modal-bron-body {
     display: flex;

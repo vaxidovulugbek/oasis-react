@@ -1,6 +1,5 @@
 import React from 'react'
 import beverage from '../../assets/imgs/png/Rectangle 11770.png'
-import './Beverages.scss'
 function Beverages() {
   const dataBevarages = [
     {

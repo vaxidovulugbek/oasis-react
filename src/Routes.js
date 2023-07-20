@@ -3,4 +3,5 @@ const RoutesPath = {
   events: "/events",
 };
 
+
 export default RoutesPath

@@ -1,5 +1,4 @@
 import React from 'react'
-import './Chief.scss'
 import image30_1 from '../../assets/imgs/png/image 30 (1).png'
 import image30_2 from '../../assets/imgs/png/image 32.png'
 import image30_3 from '../../assets/imgs/png/Images.png'

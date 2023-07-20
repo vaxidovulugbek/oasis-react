@@ -1,5 +1,4 @@
 import React from 'react'
-import './Menu.scss'
 import food from '../../assets/imgs/png/food.png'
 import image_33 from '../../assets/imgs/png/image 33.png'
 function Menu() {
