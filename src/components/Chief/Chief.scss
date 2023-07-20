@@ -1,0 +1,665 @@
+
+.info-aquapark-content {
+  position: relative;
+  margin: 40px 0 140px 0;
+}
+
+.info-aquapark {
+  display: flex;
+  width: 1000px;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  border-radius: 50px;
+  border: 2px solid #8ad2f54d;
+  background: radial-gradient(116.62% 84.16% at 22.68% 20.40%, rgba(231, 231, 231, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(23px);
+  margin: 0 auto;
+  z-index: 99 !important;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 0;
+    margin: 0 0 180px 0;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    min-height: 720px;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+  }
+
+  &__event-img {
+    height: 315px;
+    border-radius: 50px;
+    margin-bottom: 12px;
+  }
+
+  &__event-title {
+    color: #8AD2F5;
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.48px;
+    padding: 0 25px;
+    margin: 0 0 20px 0;
+  }
+
+  &__event-text {
+    color: #1f1f1fcc;
+    text-align: center;
+    font-family: 'Gilroy-Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.3px;
+  }
+
+  &__event-date {
+    margin-bottom: 20px;
+    color: #1f1f1fcc;
+    text-align: center;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.48px;
+  }
+
+  &__event-info {
+    padding: 0 25px 30px 25px;
+  }
+
+  &__more {
+    text-decoration: none;
+    padding: 11px 11px 11px 16px;
+    min-width: 145px;
+    min-height: 44px;
+    color: #fff;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.27px;
+    border-radius: 136px;
+    background: linear-gradient(90deg, #1EA5E7 12.01%, #8AD2F5 76.22%);
+    transition: all .2s linear;
+    border: none;
+  }
+
+  &__more:hover img {
+    transform: translateX(6px);
+    transition: all .2s linear;
+  }
+
+  &__more img {
+    transition: all .2s linear;
+  }
+
+  &__bron {
+      text-decoration: none;
+      padding: 11px 16px;
+      min-width: 145px;
+      min-height: 44px;
+      color: #fff;
+      font-family: 'Gilroy-SemiBold';
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.27px;
+      border-radius: 136px;
+      background: #01AF1C;
+      border: none;
+  }
+
+  &__title {
+    color: #8AD2F5;
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.72px;
+    margin: 0;
+  }
+
+  &__text{
+    color: #454545;
+    text-align: center;
+    font-family: "Gilroy-SemiBold";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.72px;
+    width: 78%;
+    margin: 0 auto;
+  }
+
+  &__img {
+    position: absolute;
+    z-index: -1;
+    width: 387px;
+    height: 350px;
+    left: -120px;
+    top: 60px;
+  }
+
+  &__subimg {
+    position: absolute;
+    z-index: -1;
+    width: 330px;
+    height: 298px;
+    right: -150px;
+    top: 630px;
+  }
+
+  &__desctop-dn {
+    display: none;
+  }
+
+  &__l-img {
+    position: absolute;
+    left: -90px;
+    bottom: 0;
+    z-index: -1;
+    width: 276px;
+    height: 250px;
+  }
+
+  &__r-img {
+    position: absolute;
+    right: -90px;
+    bottom: 0;
+    z-index: -1;
+    width: 276px;
+    height: 250px;
+  }
+
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+
+  } 
+
+}
+
+.aquapark-chef-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 95px;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    width: 258px;
+    height: 304px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #8ad2f54d;
+    background: radial-gradient(116.62% 84.16% at 22.68% 20.40%, rgba(231, 231, 231, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(23px);
+
+    h3 {
+      color: #1F1F1F;
+      font-family: 'Gilroy-SemiBold';
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 36px;
+      margin: 0 auto 8px auto;
+      width: 70%;
+      text-align: center;
+    }
+
+    h4 {
+      text-align: center;
+      font-family: 'Gilroy-Medium';
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      color: #8AD2F5;
+      margin: 0;
+    }
+
+    img {
+      width: 178px;
+      height: 178px;
+      position: absolute;
+      left: 50%;
+      top: 15%;
+      transform: translate(-50%,-50%);
+    }
+  }
+
+  &__content {
+    position: absolute;
+    bottom: 32px;
+  }
+}
+
+.desctop-dn {
+  display: none;
+}
+
+.aquapark-event-title {
+  color: #1f1f1fcc;
+  font-family: 'Gilroy-Bold';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: -0.3px;
+  margin-bottom: 8px;
+}
+
+.aquapark-event-text {
+  color: #1f1f1fcc;
+  font-family: 'Gilroy-Regular';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 17.5px */
+  letter-spacing: -0.21px;
+  margin-bottom: 20px;
+}
+
+.aquapark-event-input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--light-gray-light-gray-2, #DDE2E4);
+  background: var(--black-white-white, #FFF);
+  outline: none;
+}
+
+.aquapark-event-input::placeholder {
+  color: #1F1F1F;
+  opacity: 1;
+}
+
+.aquapark-event-btn {
+  color: #fff;
+  font-family: 'Gilroy-Medium';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.154px;
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background: #01AF1C;
+  border: none;
+}
+
+.modall-more .modal.show .modal-dialog {
+  width: 425px !important;
+}
+
+.modall-more .modal.fade .modal-dialog {
+  width: 425px !important;
+}
+
+.modal-dialog {
+  margin: 0 auto !important ;
+}
+
+.modall-more .modal-content {
+  border-radius: 30px !important;
+  padding: 30px !important;
+}
+
+.modal-body {
+  padding: 0 !important;
+}
+
+.modal-bron-body {
+  display: flex;
+}
+
+.modall-bron .modal.show .modal-dialog {
+  width: 1065px !important;
+  max-width: 1065px !important;
+}
+
+.modall-bron .modal.fade .modal-dialog {
+  width: 1065px !important;
+  max-width: 1065px !important;
+}
+
+.modall-bron__img {
+  width: 640px !important;
+  height: 564px;
+  border-radius: 30px;
+}
+
+.modall-bron .modal-content {
+  border-radius: 30px !important;
+  padding: 0 !important;
+}
+
+.modall-bron {
+
+  &__content {
+    padding: 30px;
+  }
+
+  &__title {
+    color: #1f1f1fcc;
+    font-family: 'Gilroy-Bold';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 40px */
+    letter-spacing: -0.48px;
+  }
+
+  &__subtext {
+    color: #8AD2F5;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 25px */
+    letter-spacing: -0.3px;
+    margin-bottom: 6px;
+  }
+
+  &__text {
+    color: #1f1f1fcc;
+    font-family:'Gilroy-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.24px;
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .info-aquapark {
+    width: 100%;
+    min-height: fit-content;
+    gap: 0;
+    padding: 20px;
+
+    &__title {
+      font-size: 32px;
+      margin: 0 0 10px 0;
+      text-align: unset;
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+    }
+
+    &__text {
+      font-family: 'Gilroy-Regular';
+      font-size: 16px;
+      font-weight: 400;
+      width: 100%;
+      text-align: unset;
+      margin-bottom: 10px;
+    }
+
+    &__wave-img {
+      width: 90px;
+      object-fit: cover;
+      height: 35px;
+      align-self: flex-start;
+    }
+
+  }
+
+  .info-aquapark__subimg {
+    display: block;
+    position: absolute;
+    top: -50px;
+    right: -14px;
+    z-index: -1;
+    width: 108px;
+    height: 97px;
+  }
+
+  .info-aquapark__img {
+    display: none;
+  }
+
+  .info-aquapark-content {
+    margin: 70px 0 50px 0;
+  }
+
+  .aquapark-chef-list {
+    margin: 0;
+    padding: 60px 0 0 0;
+    flex-wrap: unset;
+    overflow-x: scroll;
+    width: 100%;
+    gap: 20px;
+
+    &__item {
+      border-radius: 10px;
+      width: 120px;
+      min-height: 137px;
+      height: auto;
+       
+      img {
+        width: 80px;
+        height: 80px;
+        top: 0;
+      }
+
+      h3 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px; /* 111.111% */
+      }
+
+      h4 {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+
+    &__content {
+      bottom: 20px;
+    }
+
+  }
+
+  .aquapark-chef-list::-webkit-scrollbar{
+    width: 0; 
+  }
+
+  .info-aquapark__l-img {
+    display: none;
+  }
+
+  .info-aquapark__r-img {
+    display: none;
+  }
+
+  .desctop-dn {
+    display: block;
+  }
+
+  .info-aquapark__list {
+    margin: 0;
+    padding: 20px 0;
+    flex-wrap: unset;
+    overflow-x: scroll;
+    width: 100%;
+    gap: 20px;
+  }
+  .info-aquapark__list::-webkit-scrollbar{
+    width: 0; 
+  }
+
+  .info-aquapark__item {
+    min-width: 262px;
+    width: auto;
+    border-radius: 40px;
+    min-height: 510px;
+  }
+
+  .info-aquapark__event-img {
+    border-radius: 40px;
+    height: 224px;
+    margin-bottom: 12px;
+  }
+
+  .info-aquapark__event-title {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0 20px;
+    margin-bottom: 8px;
+  }
+
+  .info-aquapark__event-text {
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .info-aquapark__event-date {
+    font-family: 'Gilroy-SemiBold';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .info-aquapark__more {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .aquapark-event-title {
+    color: #1f1f1fcc;
+    font-family: 'Gilroy-Bold';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.3px;
+    margin-bottom: 8px;
+  }
+  
+  .aquapark-event-text {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .aquapark-event-input {
+    padding: 12px 16px;
+    border-radius: 12px;
+  }
+  
+  .aquapark-event-btn {
+    font-family: 'Gilroy-Medium';
+    font-size: 15px;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  .modal.show .modal-dialog {
+    width: 95% !important;
+  }
+  
+  .modal.fade .modal-dialog {
+    width: 95% !important;
+  }
+  
+  .modal-content {
+    border-radius: 20px !important;
+    padding: 20px !important;
+  }
+
+
+  .modal-bron-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modall-bron .modal.show .modal-dialog {
+    width: 90% !important;
+    max-width: 90% !important;
+  }
+  
+  .modall-bron .modal.fade .modal-dialog {
+    width: 90% !important;
+    max-width: 90% !important;
+  }
+  
+  .modall-bron__img {
+    width: 100% !important;
+    height: 264px;
+    border-radius: 30px;
+  }
+  
+  .modall-bron .modal-content {
+    border-radius: 30px !important;
+    padding: 0 !important;
+  }
+  
+  .modall-bron {
+  
+    &__content {
+      padding: 20px;
+    }
+  
+    &__title {
+      font-family: 'Gilroy-Bold';
+      font-size: 22px;
+    }
+  
+    &__subtext {
+      font-size: 16px;
+    }
+  
+    &__text {
+      font-size: 14px;
+    }
+  }
+}
+
+
