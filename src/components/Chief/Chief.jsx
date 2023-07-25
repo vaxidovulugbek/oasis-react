@@ -3,6 +3,7 @@ import image30_1 from '../../assets/imgs/png/image 30 (1).png'
 import image30_2 from '../../assets/imgs/png/image 32.png'
 import frame from '../../assets/imgs/png/Frame 168.png'
 import image30_3 from '../../assets/imgs/png/Images.png'
+import backgraund from '../../assets/imgs/png/bg2.png'
 import Chief_Card from './Chief-Card'
 import {v4 as uuidv4} from 'uuid';
 
@@ -39,6 +40,7 @@ function Chief_Content() {
         </div>
         <img className="info-aquapark__img" src={image30_1} alt="" />
         <img className="info-aquapark__subimg" src={image30_2} alt="" />
+        <img className="info-aquapark__bg" src={backgraund} alt="" />
 
         <ul className="d-flex aquapark-chef-list">
 

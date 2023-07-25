@@ -170,6 +170,18 @@
     top: 630px;
   }
 
+  &__bg {
+    position: absolute;
+    right: 0;
+    top: 300px;
+    border-radius: 40px;
+    background: #8AD2F5;
+    filter: blur(200px);
+    width: 306px;
+    height: 322px;
+    z-index: -1;
+  }
+
   &__desctop-dn {
     display: none;
   }
@@ -464,6 +476,11 @@ ul {
       align-self: flex-start;
     }
 
+    &__bg {
+      top: 300px;
+      filter: blur(120px);
+      width: 80px;
+    }
   }
 
   .info-aquapark__subimg {
@@ -590,9 +607,10 @@ ul {
   }
 
   .info-aquapark__more {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
+    // font-size: 18px;
+    // font-style: normal;
+    // font-weight: 400;
+    display: none;
   }
 
   .aquapark-event-title {

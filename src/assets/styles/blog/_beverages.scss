@@ -1,4 +1,5 @@
 .beverages {
+  position: relative;
 
   &__list {
     display: flex;
@@ -62,6 +63,19 @@
     line-height: 130%;
     margin: 0;
   }
+
+  &__backgraund {
+    position: absolute;
+    left: 0;
+    top: 400px;
+    z-index: -1;
+    border-radius: 40px;
+    background: #8AD2F5;
+    filter: blur(200px);
+    width: 306.207px;
+    height: 322.759px;
+    flex-shrink: 0;
+  }
 }
 
 @media screen and (max-width:480px) {
@@ -119,5 +133,9 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+  }
+
+  .beverages__backgraund {
+    display: none;
   }
 }

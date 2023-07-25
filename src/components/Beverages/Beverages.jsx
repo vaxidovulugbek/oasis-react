@@ -1,5 +1,6 @@
 import React from 'react'
 import beverage from '../../assets/imgs/png/Rectangle 11770.png'
+import backgraund from '../../assets/imgs/png/bg5.png'
 import {v4 as uuidv4} from 'uuid';
 
 function Beverages() {
@@ -69,6 +70,7 @@ function Beverages() {
     <>
       <section className="beverages">
           <div className="chief-section-title">«Напитки»</div>
+          <img className='beverages__backgraund' src={backgraund} alt="" />
           <ul className="beverages__list w-100">
             {
               dataBevarages.map((item) => {

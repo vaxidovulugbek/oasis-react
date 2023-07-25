@@ -3,6 +3,9 @@ import image_card from '../../assets/imgs/png/Снимок экрана 2023-06-
 import arrow from '../../assets/imgs/svg/arrow_back_ios_new.svg'
 import {v4 as uuidv4} from 'uuid';
 import InputMask from 'react-input-mask';
+import backgraund1 from '../../assets/imgs/png/bg2.png'
+import backgraund2 from '../../assets/imgs/png/bg1.png'
+import backgraund4 from '../../assets/imgs/png/bg4.png'
 
 function Event_Cards() {
 
@@ -46,10 +49,33 @@ function Event_Cards() {
       text:"Вперёд на поиски таинственно сокровищ",
       date:"30 июня 10:40"
     },
+    {
+      img:image_card,
+      title:"«Пираты Карибского моря»",
+      text:"Вперёд на поиски таинственно сокровищ",
+      date:"30 июня 10:40"
+    },
+    {
+      img:image_card,
+      title:"«Пираты Карибского моря»",
+      text:"Вперёд на поиски таинственно сокровищ",
+      date:"30 июня 10:40"
+    },
+    {
+      img:image_card,
+      title:"«Пираты Карибского моря»",
+      text:"Вперёд на поиски таинственно сокровищ",
+      date:"30 июня 10:40"
+    },
   ]
   return (
     <>
-      <section>
+      <section className='events-section'>
+        <img className='events-section__bg' src={backgraund1} alt="" />
+        <img className='events-section__bg2' src={backgraund2} alt="" />
+        <img className='events-section__bg3' src={backgraund1} alt="" />
+        <img className='events-section__bg4' src={backgraund4} alt="" />
+        <img className='events-section__bg5' src={backgraund1} alt="" />
         <ul className="info-aquapark__list w-100">
           {
             data.map((el,i) => {
