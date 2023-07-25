@@ -1,6 +1,7 @@
 import React from 'react'
 import image_card from '../../assets/imgs/png/Снимок экрана 2023-06-28 в 01.01 1.png'
 import arrow from '../../assets/imgs/svg/arrow_back_ios_new.svg'
+import {v4 as uuidv4} from 'uuid';
 function Event_Cards() {
   const data = [
     {
@@ -46,16 +47,16 @@ function Event_Cards() {
         <ul className="info-aquapark__list w-100">
           {
             data.map((el,i) => {
-              return  <li className="info-aquapark__item" key={i}>
+              return  <li className="info-aquapark__item" key={uuidv4()}>
               <div>
-                <img className="info-aquapark__event-img w-100" src={el.img} alt />
-                <h2 className="info-aquapark__event-title">{el.title}</h2>
-                <p className="info-aquapark__event-text">{el.text}</p>
+                <img className="info-aquapark__event-img w-100" src={el?.img} alt="" />
+                <h2 className="info-aquapark__event-title">{el?.title}</h2>
+                <p className="info-aquapark__event-text">{el?.text}</p>
               </div>
               <div className="info-aquapark__event-info">
-                <p className="info-aquapark__event-date">{el.date}</p>
+                <p className="info-aquapark__event-date">{el?.date}</p>
                 <div className="d-flex align-items-center justify-content-center gap-3">
-                    <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" class="info-aquapark__bron">Бронировать</button>
+                    <button data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" className="info-aquapark__bron">Бронировать</button>
                 </div>
               </div>
             </li>
@@ -71,7 +72,7 @@ function Event_Cards() {
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
           <div className="modal-body modal-bron-body">
-            <img className="modall-bron__img" src="https://picsum.photos/id/48/618/584" alt />
+            <img className="modall-bron__img" src="https://picsum.photos/id/48/618/584" alt="" />
             <div className="d-flex flex-column modall-bron__content">
               <h2 className="modall-bron__title">«Пираты Карибского моря»</h2>
               <div className="mb-2">

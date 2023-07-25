@@ -1,5 +1,7 @@
 import React from 'react'
 import beverage from '../../assets/imgs/png/Rectangle 11770.png'
+import {v4 as uuidv4} from 'uuid';
+
 function Beverages() {
   const dataBevarages = [
     {
@@ -69,15 +71,15 @@ function Beverages() {
           <div className="chief-section-title">«Напитки»</div>
           <ul className="beverages__list w-100">
             {
-              dataBevarages.map((item,index) => {
-                return <li className="beverages__item col-sm-2" key={index}>
-                <img src={item.img} alt />
+              dataBevarages.map((item) => {
+                return <li className="beverages__item col-sm-2" key={uuidv4()}>
+                <img src={item?.img} alt="" />
                 <div className="beverages__item-content">
                   <div>
-                    <h2 className="beverages__item-title">{item.name}</h2>
-                    <p className="beverages__item-category">{item.category}</p>
+                    <h2 className="beverages__item-title">{item?.name}</h2>
+                    <p className="beverages__item-category">{item?.category}</p>
                   </div>
-                  <p className="beverages__item-price m-0">{item.price} сум</p>
+                  <p className="beverages__item-price m-0">{item?.price} сум</p>
                 </div>
               </li>
               })
