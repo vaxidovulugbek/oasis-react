@@ -299,10 +299,34 @@ ul {
   outline: none;
 }
 
-.aquapark-event-input::placeholder {
+.aquapark-event-input span{
   color: #1F1F1F;
-  opacity: 1;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Gilroy-Medium';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
+
+
+.aquapark-event-input input{
+  color: #1F1F1F;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: 'Gilroy-Medium';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 85%;
+  border: none;
+  outline: none;
+}
+
+// .aquapark-event-input::placeholder {
+//   color: #1F1F1F;
+//   opacity: 1;
+// }
 
 .aquapark-event-btn {
   color: $white;
