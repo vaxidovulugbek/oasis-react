@@ -4,6 +4,9 @@ import Chief from './pages/Chief';
 import Events from './pages/Events';
 import RoutesPath from './Routes';
 function App() {
+  const event = new Date();
+
+console.log(event.toLocaleTimeString('en-US'));
   return (
     <div className="App">
       <main>
@@ -18,6 +21,7 @@ function App() {
                   })
                 } */}
              </Routes>
+
 
           </div>
       </main>
