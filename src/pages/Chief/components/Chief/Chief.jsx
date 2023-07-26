@@ -32,8 +32,8 @@ function Chief_Content() {
   ]
   return (
     <>
-      <section className="info-aquapark-content">
-        <div className="info-aquapark">
+      <section className="info-aquapark">
+        <div className="info-aquapark__content">
             <h1 className="info-aquapark__title">«Кухня»</h1>
             <p className="info-aquapark__text">В аквапарке очень хорошая кухня, шеф-повар каждый день выходит в кухню и проверяет качество еды и даже сам садится и обедает, а это не часто увидишь в парках. Есть рай блюдо на любой вкус и холодные напитки.</p>
             <img className="info-aquapark__wave-img" src={frame} alt="" />

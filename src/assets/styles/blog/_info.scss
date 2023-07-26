@@ -1,22 +1,23 @@
 
-.info-aquapark-content {
+.info-aquapark {
   position: relative;
   margin: 40px 0 140px 0;
-}
 
-.info-aquapark {
-  display: flex;
-  width: 1000px;
-  padding: 30px;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-  border-radius: 50px;
-  border: 2px solid $border-color;
-  background: radial-gradient(116.62% 84.16% at 22.68% 20.40%, rgba(231, 231, 231, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.20);
-  backdrop-filter: blur(23px);
-  margin: 0 auto;
-  z-index: 99 !important;
+  &__content {
+    display: flex;
+    width: 1000px;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 50px;
+    border: 2px solid $border-color;
+    background: radial-gradient(116.62% 84.16% at 22.68% 20.40%, rgba(231, 231, 231, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(23px);
+    margin: 0 auto;
+    z-index: 99 !important;
+  
+  }
 
   &__list {
     display: flex;
@@ -203,7 +204,6 @@
     width: 276px;
     height: 250px;
   }
-
 }
 
 .aquapark-chef-list {
@@ -309,7 +309,6 @@
   font-weight: 400;
   line-height: normal;
 }
-
 
 .aquapark-event-input input{
   color: #1F1F1F;

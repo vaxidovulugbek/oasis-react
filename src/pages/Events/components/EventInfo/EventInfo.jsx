@@ -8,8 +8,8 @@ function EventInfo() {
   return (
     <>
 
-      <section className="info-aquapark-content">
-        <div className="info-aquapark">
+      <section className="info-aquapark">
+        <div className="info-aquapark__content">
           <h1 className="info-aquapark__title">«Мероприятии»</h1>
           <p className="info-aquapark__text">Мы подберём развлекательную программу, спортивные игры или различные квесты именно для вашего коллектива, учтём все пожелания и специфику вашей работы.В нашем арсенале огромное количество сценариев, главной задачей которых является объединение коллектива.С нашей помощью каждый Ваш сотрудник почувствует заботу компании, в которой он работает.</p>
           <img className="info-aquapark__wave-img" src={frame} alt="" />
