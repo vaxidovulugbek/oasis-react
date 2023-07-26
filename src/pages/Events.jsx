@@ -1,12 +1,12 @@
 import React from 'react'
 import EventInfo from '../components/EventInfo/EventInfo'
-import Event_Cards from '../components/Event_Cards/Event_Cards'
+import EventCards from '../components/EventCards/EventCards'
 
 function Events() {
   return (
     <>
         <EventInfo />
-        <Event_Cards />
+        <EventCards />
     </>
   )
 }

@@ -13,11 +13,6 @@ function App() {
               <Routes>
                 <Route path={RoutesPath.home} element={<Chief />} />
                 <Route path={RoutesPath.events} element={<Events />} />
-                {/* {
-                  RoutesPath.forEach((el) => {
-                    return Route path={RoutesPath.events} element={<Events />} />
-                  })
-                } */}
              </Routes>
 
           </div>

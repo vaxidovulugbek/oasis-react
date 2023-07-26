@@ -4,7 +4,7 @@ import image30_2 from '../../assets/imgs/png/image 32.png'
 import frame from '../../assets/imgs/png/Frame 168.png'
 import image30_3 from '../../assets/imgs/png/Images.png'
 import backgraund from '../../assets/imgs/png/bg2.png'
-import Chief_Card from './Chief-Card'
+import Chief_Card from './ChiefCard'
 import {v4 as uuidv4} from 'uuid';
 
 function Chief_Content() {
