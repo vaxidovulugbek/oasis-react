@@ -1,9 +1,9 @@
 import React from 'react'
-import food from '../../assets/imgs/png/food.png'
-import image_33 from '../../assets/imgs/png/image 33.png'
-import backgraund from '../../assets/imgs/png/bg1.png'
-import backgraund2 from '../../assets/imgs/png/bg3.png'
-import backgraund3 from '../../assets/imgs/png/bg4.png'
+import food from 'assets/imgs/png/food.png'
+import image_33 from 'assets/imgs/png/image 33.png'
+import backgraund from 'assets/imgs/png/bg1.png'
+import backgraund2 from 'assets/imgs/png/bg3.png'
+import backgraund3 from 'assets/imgs/png/bg4.png'
 import {v4 as uuidv4} from 'uuid';
 
 function Menu() {

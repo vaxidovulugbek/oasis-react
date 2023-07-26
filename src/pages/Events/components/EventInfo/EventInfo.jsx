@@ -1,8 +1,8 @@
 import React from 'react'
-import image30_1 from '../../assets/imgs/png/image 30 (3).png'
-import image30_2 from '../../assets/imgs/png/image 31 (1).png'
-import image30_3 from '../../assets/imgs/png/image 32.png'
-import frame from '../../assets/imgs/png/Frame 168.png'
+import image30_1 from 'assets/imgs/png/image 30 (3).png'
+import image30_2 from 'assets/imgs/png/image 31 (1).png'
+import image30_3 from 'assets/imgs/png/image 32.png'
+import frame from 'assets/imgs/png/Frame 168.png'
 
 function EventInfo() {
   return (

@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import image_card from '../../assets/imgs/png/Снимок экрана 2023-06-28 в 01.01 1.png'
-import arrow from '../../assets/imgs/svg/arrow_back_ios_new.svg'
+import image_card from 'assets/imgs/png/Снимок экрана 2023-06-28 в 01.01 1.png'
+import arrow from 'assets/imgs/svg/arrow_back_ios_new.svg'
 import {v4 as uuidv4} from 'uuid';
 import InputMask from 'react-input-mask';
-import backgraund1 from '../../assets/imgs/png/bg2.png'
-import backgraund2 from '../../assets/imgs/png/bg1.png'
-import backgraund4 from '../../assets/imgs/png/bg4.png'
+import backgraund1 from 'assets/imgs/png/bg2.png'
+import backgraund2 from 'assets/imgs/png/bg1.png'
+import backgraund4 from 'assets/imgs/png/bg4.png'
 
 function Event_Cards() {
 

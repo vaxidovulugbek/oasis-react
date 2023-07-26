@@ -1,8 +1,8 @@
 import React from 'react'
-import Beverages from 'components/Beverages/Beverages'
-import Menu from 'components/Menu/Menu'
+import Beverages from 'pages/Chief/components/Beverages/Beverages'
+import Menu from 'pages/Chief/components/Menu/Menu'
 // images
-import Chief_Content from '../../components/Chief/Chief'
+import Chief_Content from './components/Chief/Chief'
 
 function Chief() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import beverage from '../../assets/imgs/png/Rectangle 11770.png'
-import backgraund from '../../assets/imgs/png/bg5.png'
+import beverage from 'assets/imgs/png/Rectangle 11770.png'
+import backgraund from 'assets/imgs/png/bg5.png'
 import {v4 as uuidv4} from 'uuid';
 
 function Beverages() {
@@ -67,7 +67,6 @@ function Beverages() {
     },
   ]
   return (
-    <>
       <section className="beverages">
           <div className="chief-section-title">«Напитки»</div>
           <img className='beverages__backgraund' src={backgraund} alt="" />
@@ -88,7 +87,6 @@ function Beverages() {
             }
           </ul>
         </section>
-    </>
   )
 }
 
