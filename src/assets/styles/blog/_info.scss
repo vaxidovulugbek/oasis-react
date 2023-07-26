@@ -206,17 +206,6 @@
 
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  li {
-
-  } 
-
-}
-
 .aquapark-chef-list {
   display: flex;
   flex-wrap: wrap;
@@ -335,11 +324,6 @@ ul {
   outline: none;
 }
 
-// .aquapark-event-input::placeholder {
-//   color: #1F1F1F;
-//   opacity: 1;
-// }
-
 .aquapark-event-btn {
   color: $white;
   font-family: 'Gilroy-Medium';
@@ -358,7 +342,7 @@ ul {
   background: #01AF1C;
   border: none;
 }
-
+// START MODAL STYLES
 .modall-more .modal.show .modal-dialog {
   width: 425px !important;
 }
@@ -443,7 +427,7 @@ ul {
     margin-bottom: 4px;
   }
 }
-
+// END OF MODALS STYLES
 @media screen and (max-width:480px) {
   .info-aquapark {
     width: 100%;

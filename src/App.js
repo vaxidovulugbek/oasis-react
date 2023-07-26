@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Chief from './pages/Chief';
-import Events from './pages/Events';
-import RoutesPath from './Routes';
+import Chief from 'pages/Chief';
+import Events from 'pages/Events';
+import RoutesPath from 'Routes';
 function App() {
 
   return (
